@@ -45,6 +45,7 @@ public class ValidParentheses_up {
         int length = s.length() / 2;
         // 循环遍历，进行括号配对替换空值
         for (int i = 0; i < length; i++) {
+            // 解析见类：tool_replace.class
             s = s.replace("()", "")
                     .replace("{}", "")
                     .replace("[]", "");
