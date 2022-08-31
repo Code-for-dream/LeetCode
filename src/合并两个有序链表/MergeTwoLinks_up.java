@@ -23,7 +23,6 @@ package 合并两个有序链表;
 
 public class MergeTwoLinks_up {
 
-
     /**
      * 合并两个列表
      * 如果 l1 或者 l2 一开始就是空链表 ，那么没有任何操作需要合并，所以我们只需要返回非空链表。
