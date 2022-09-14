@@ -21,7 +21,9 @@ package X的平方根;
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  *
  */
+
 public class XSqrt {
+
     public int mySqrt(int x) {
         // 二分法
         int l = 0, r = x, ans = -1;
@@ -36,4 +38,5 @@ public class XSqrt {
         }
         return ans;
     }
+
 }
